@@ -1,0 +1,112 @@
+html,body,img,p,div,a,span,li{
+  margin: 0;
+  padding: 0;
+  font-family: PingFangSC-Light,helvetica neue,hiragino sans gb,arial,microsoft yahei ui,microsoft yahei,simsun,sans-serif
+}
+body{
+  font-size: 62.5%;
+}
+li{
+  list-style: none
+}
+img{
+  border:none
+}
+a{
+  text-decoration: none;
+  color:#FFFFFF
+}
+/*滚动条样式*/
+::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 4px;
+}
+::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.6);
+}
+::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.2);
+}
+.logo{
+  position: absolute;
+  top:30px;
+  left: 18.75%;
+  z-index: 99
+}
+.img{
+  width: 100%;
+  height: auto;
+}
+.img-wrap{
+  font-size: 0
+}
+.title span{
+  font-size: 3em
+}
+.title .small-title{
+  margin-top: 10px;
+  font-size: 1.6em
+}
+.nav{
+  position: absolute;
+  top:30px;
+  right: 18.75%;
+  z-index: 99
+}
+.bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1
+}
+.nav li{
+  display: inline-block;
+  color:rgba(255,255,255,0.9);
+  font-size: 1.4em;
+  padding-left: 16px;
+  cursor: pointer;
+}
+
+.newPage .banner{
+  position: relative;
+}
+
+.newPage .subnav{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right:0;
+  background: rgba(43,51,84,0.6);
+  padding: 2% 18.75%;
+  display: flex;
+  justify-content: center;
+}
+.newPage .subnav>li{
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #4B5A82
+}
+.newPage .subnav>li:last-child{
+  border:none
+}
+.newPage .subnav>li p{
+  font-size: 1.8em;
+  padding-bottom: 8px;
+  color:#FFFFFF
+}
+.newPage .subnav>li span{
+  font-size: 1.4em;
+  color:#A6A6A8
+}
+.newPage .list{
+  padding:0 18.75%;
+  margin-top: 6%;
+}
+.newPage .list li{
+  height: 200px;
+  border-bottom: 1px solid #EDEDED
+}

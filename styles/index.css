@@ -1,0 +1,318 @@
+
+html,body,img,p,div,a,span,li{
+  margin: 0;
+  padding: 0;
+  font-family: PingFangSC-Light,helvetica neue,hiragino sans gb,arial,microsoft yahei ui,microsoft yahei,simsun,sans-serif
+}
+body{
+  font-size: 62.5%;
+}
+li{
+  list-style: none
+}
+img{
+  border:none
+}
+a{
+  text-decoration: none;
+  color:#FFFFFF
+}
+/*滚动条样式*/
+::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 4px;
+}
+::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.6);
+}
+::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.2);
+}
+
+.logo{
+  position: absolute;
+  top:30px;
+  left: 18.75%;
+  display: block;
+}
+.img{
+  width: 100%;
+  height: auto;
+}
+.img-wrap{
+  font-size: 0
+}
+.title span{
+  font-size: 3em
+}
+.title .small-title{
+  margin-top: 10px;
+  font-size: 1.6em
+}
+.nav{
+  position: absolute;
+  top:30px;
+  right: 18.75%;
+
+}
+.bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1
+}
+.nav li{
+  display: inline-block;
+  color:rgba(255,255,255,0.9);
+  font-size: 1.4em;
+  padding-left: 16px;
+  cursor: pointer;
+}
+/********************home-page  *****************************/
+
+.home-page-item{
+  position: relative;
+}
+/*  智慧物联解决方案*/
+.homePage .scheme .title{
+  position: relative;
+}
+.homePage .scheme .wrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding:10% 0 6% 0
+}
+
+.homePage .scheme .content{
+  display: flex;
+}
+.homePage .scheme .content .right{
+  display: flex;
+  align-items: flex-start;
+}
+
+.homePage .scheme .content .right .item,.scheme .content .left{
+  position: relative;
+}
+.homePage .scheme .content .left .introduce,.scheme .content .right .item .introduce{
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  color: #FFFFFF;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.homePage .scheme .content .right .item .introduce .brife p,.scheme .content .left .homePage .introduce .brife p{
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 10px
+}
+.homePage .scheme .content .right .item .introduce span,.scheme .content .left .introduce span{
+  font-size: 1.4em
+
+}
+.homePage .scheme .content .right .item .introduce .details{
+  display: none;
+  font-size: 1.4em;
+  padding:0 14%
+}
+.homePage .scheme .content .right .item:hover .introduce{
+  background: #467BFF
+}
+.homePage .scheme .content .right .item:hover .introduce .brife{
+  display: none;
+}
+.homePage .scheme .content .right .item:hover .introduce .details{
+  display: block;
+}
+
+/* 青柠智能机器人 */
+.homePage .robot .wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  padding: 0 18.75%
+}
+.homePage .robot .title{
+  text-align: center;
+  padding:16% 0 4% 0
+}
+.homePage .robot .content{
+  display: flex;
+  align-items: flex-end;
+  font-size: 0
+}
+.homePage .robot .content .left{
+  margin-left:20px
+}
+.homePage .robot .content .left li:first-child{
+  padding-bottom:3%
+}
+
+/*最新动态  */
+
+.homePage .news .wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  padding: 0 18.75%;
+}
+.homePage .news .title{
+  text-align: center;
+  padding:18% 0 6% 0
+}
+
+.homePage .news .wrap .content{
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+.homePage .news .wrap .content .item{
+  white-space: normal;
+  color:#181818;
+  padding-bottom: 10%;
+  box-shadow: -1px 1px 20px #BABABA
+}
+
+.homePage .news .content .item:nth-child(2){
+  margin:0 20px;
+}
+.homePage .news .content .item:hover{
+  box-shadow: -1px 1px 20px #535353
+}
+.homePage .news .content .item .img-wrap{
+  overflow: hidden;
+}
+.homePage .news .content .item img{
+  transition: all 0.8s
+}
+.homePage .news .content .item img:hover{
+  -webkit-transition:scale(1.2);
+  -o-transition:scale(1.2);
+  transform: scale(1.2)
+}
+.homePage .news .content .item .text{
+  padding: 0 12px
+}
+.homePage .news .content .item p{
+  font-size: 1.8em;
+  font-weight: 600;
+  padding:30px 0 18px 0
+}
+.homePage .news .content .item span{
+  line-height:26px
+}
+.homePage .news .news-more{
+  margin-top: 80px;
+  text-align: right;
+}
+/* 关于我们 */
+
+.homePage .about .wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  display: block;
+  width: 100%;
+  color:#FFFFFF;
+}
+.homePage .about .title{
+  text-align: center;
+  padding:5% 0 2% 0
+}
+
+.homePage .about .describtion{
+  padding: 0 18.75%;
+  color:#D4D4D4
+}
+.about .describtion p{
+  margin-bottom: 20px;
+  font-size: 1.4em
+}
+.homePage .about .info{
+  padding: 0 18.75%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.4em
+}
+.homePage .about .info .item{
+  width:100%;
+  text-align: center;
+  color:#D4D4D4;
+  padding:0 8%;
+}
+.homePage .about .info .item img{
+  margin-bottom: 6%
+}
+
+/* 联系我们 */
+.homePage .contact a ,.homePage .contact p,.homePage .contact li{
+  color:#D4D4D4
+}
+.homePage .contact .wrap{
+  position: absolute;
+  top:14%;
+  left: 0;
+  display: block;
+  width: 100%;
+}
+.homePage .contact .wrap .content{
+  margin: 0 18.75%;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 3%;
+  border-bottom: 1px solid #2D2D40
+}
+.homePage .contact .wrap .content .left{
+  width: 36%;
+  border-right: 1px solid #2D2D40;
+}
+.homePage .contact .wrap .content .left p{
+  font-size: 1.8em;
+  margin-bottom: 4%
+}
+.homePage .contact .wrap .content .left li{
+  font-size: 1.2em;
+  margin-bottom: 4%;
+}
+.homePage .contact .wrap .content .right{
+  width: 64%;
+  display: flex;
+  justify-content: center;
+  padding-left:8%;
+}
+.homePage .contact .wrap .content .right .item{
+  flex: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+}
+.homePage .contact .wrap .content .right .item p{
+  font-size: 1.8em;
+  padding-bottom: 12%;
+}
+
+.homePage .contact .wrap .content .right .item li{
+  margin-top: 6%;
+  font-size: 1.4em;
+}
+.homePage .footer{
+  text-align: center;
+  padding:2% 0;
+}
