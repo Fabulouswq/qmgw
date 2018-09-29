@@ -1,0 +1,285 @@
+
+/*  */
+
+.aboutPage .banner{
+  position: relative;
+}
+
+.aboutPage .subnav{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right:0;
+  background: rgba(12,21,47,0.5);
+  padding: 2% 18.75%;
+  display: flex;
+  justify-content: center;
+}
+.aboutPage .subnav>li{
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #4B5A82
+}
+.aboutPage .subnav>li:last-child{
+  border:none
+}
+.aboutPage .subnav>li p{
+  font-size: 1.8em;
+  padding-bottom: 8px;
+  color:#FFFFFF
+}
+.aboutPage .subnav>li span{
+  font-size: 1.4em;
+  color:#A6A6A8
+}
+
+
+.profile{
+  padding:0 18.75%;
+  margin-top:4%
+}
+.profile-title{
+  text-align: center;
+  padding-bottom: 8%;
+  color:#181818
+}
+.profile-title p{
+  font-size: 2.4em;
+  padding-bottom: 8px
+
+}
+.profile-title span{
+  font-size: 1.4em
+}
+.profile-content{
+  position: relative;
+}
+.profile-content>.img-wrap{
+  position: absolute;
+  top: 4%;
+  right: 0;
+  z-index: -1;
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+.profile-content>.img-wrap img{
+  width: 70%;
+}
+.profile-content>.wrap>.img-wrap{
+  width: 40%
+}
+.pro-body{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 4%
+}
+.pro-body .left{
+  position: relative;
+  width: 60%;
+  margin-right: 10%
+}
+.pro-body .left>img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 10%
+}
+.pro-body .left p{
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: 4%;
+}
+.pro-body .left span{
+  display: inline-block;
+  line-height: 22px;
+  color:#181818;
+  font-size: 1.3em;
+  text-indent:25px
+}
+.pro-body .right{
+  width: 30%
+}
+.pro-body .right .img-wrap{
+  width: 100%
+}
+.pro-footer{
+  margin-top: 4%
+}
+.pro-footer>div{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 4%
+}
+.pro-footer>div>.left{
+  padding-right: 10px
+}
+.pro-footer>div .right .title{
+  font-size: 1.5em;
+  font-weight: 600
+}
+.pro-footer>div>.right .title span:first-child{
+  color:#467BFF;
+
+}
+.pro-footer>div .right .sub-title{
+  color:#A6A6A8;
+  padding-top: 6px;
+  margin-bottom: 1%
+}
+.pro-footer>div .right>p:last-child{
+  font-size: 1.2em;
+  color:#5C5C5C;
+  line-height: 22px;
+}
+/* 发展历程 */
+.dev-history{
+  position: relative;
+  margin-top: 6%;
+  color:#FFFFFF
+}
+.dev-history .wrap{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%
+}
+.dev-history .wrap .title{
+  text-align: center;
+  padding:4% 0 4% 0
+}
+.dev-history .wrap .title p{
+  font-size: 2.4em;
+  padding-bottom: 10px;
+}
+.dev-history .wrap .title span{
+  font-size: 1.6em
+}
+.dev-history .content{
+  margin: 2% 18% 0 18%;
+  position: relative;
+}
+.dev-history .content .item{
+  position: absolute;
+  font-size: 1.2em;
+  display: inline-block;
+  text-align: center;
+  max-width: 120px
+}
+.dev-history .content .item span{
+  color:#E8E8E8
+}
+.dev-history .content .item1{
+  bottom: -38px;
+  left: -24px;
+}
+.dev-history .content .item2{
+  bottom: 18%;
+  left: 16%;
+}
+.dev-history .content .item3{
+  bottom: 30%;
+  left: 32%;
+}
+.dev-history .content .item4{
+  top: -3.6em;
+  left: 46%;
+}
+
+.dev-history .content .item5{
+  top: 33%;
+  right: 35%;
+}
+.dev-history .content .item6{
+  top: 21%;
+  right: 21%;
+}
+.dev-history .content .item7{
+  bottom: -4%;
+  right: -32px;
+}
+/* Qualification honor */
+.honor{
+  position: relative;
+  padding: 0 18.75% 2% 18.75%;
+  margin-bottom: 6%;
+}
+.honor .title{
+  text-align: center;
+  padding:8% 0 6% 0;
+  color:#181818
+}
+.honor .title p{
+  font-size: 2.4em;
+  padding-bottom: 10px;
+}
+.honor .title span{
+  font-size: 1.6em
+}
+.honor .content{
+  display: flex;
+  justify-content: center;
+}
+.honor .content li:nth-child(2){
+  margin:0 4%;
+}
+.honor .content li{
+  display: flex;
+  align-items: center;
+}
+.honor .foot{
+  position: absolute;
+  bottom: -16px;
+  left:0;
+  width: 100%;
+  display: block;
+  text-align: center;
+  color:#181818;
+  font-size: 1.2em
+}
+/*about  */
+.about{
+  position: relative;
+  color:#FFFFFF
+}
+.about .img-wrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1
+}
+.about .wrap .title{
+  text-align: center;
+  padding:4% 0 6% 0;
+
+}
+.about .wrap .title p{
+  font-size: 2.4em;
+  padding-bottom: 10px;
+}
+.about .wrap .title span{
+  font-size: 1.4em
+}
+
+.about .wrap .content{
+  padding:0 18.75%;
+  display: flex;
+  justify-content: center;
+}
+.about .wrap .content>div{
+  text-align: center;
+  flex: 1
+}
+.about .wrap .content>div li{
+  margin-bottom: 4%
+}
+.about .wrap .content>div li img{
+  width: 20%
+}
+.about .foot{
+  text-align: center;
+  padding:6% 0;
+  font-size: 1.4em
+}

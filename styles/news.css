@@ -1,75 +1,3 @@
-html,body,img,p,div,a,span,li{
-  margin: 0;
-  padding: 0;
-  font-family: PingFangSC-Light,helvetica neue,hiragino sans gb,arial,microsoft yahei ui,microsoft yahei,simsun,sans-serif
-}
-body{
-  font-size: 62.5%;
-}
-li{
-  list-style: none
-}
-img{
-  border:none
-}
-a{
-  text-decoration: none;
-  color:#FFFFFF
-}
-/*滚动条样式*/
-::-webkit-scrollbar {/*滚动条整体样式*/
-    width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
-    height: 4px;
-}
-::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
-    border-radius: 5px;
-    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
-    background: rgba(0,0,0,0.6);
-}
-::-webkit-scrollbar-track {/*滚动条里面轨道*/
-    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
-    border-radius: 0;
-    background: rgba(0,0,0,0.2);
-}
-.logo{
-  position: absolute;
-  top:30px;
-  left: 18.75%;
-  z-index: 99
-}
-.img{
-  width: 100%;
-  height: auto;
-}
-.img-wrap{
-  font-size: 0
-}
-.title span{
-  font-size: 3em
-}
-.title .small-title{
-  margin-top: 10px;
-  font-size: 1.6em
-}
-.nav{
-  position: absolute;
-  top:30px;
-  right: 18.75%;
-  z-index: 99
-}
-.bg{
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1
-}
-.nav li{
-  display: inline-block;
-  color:rgba(255,255,255,0.9);
-  font-size: 1.4em;
-  padding-left: 16px;
-  cursor: pointer;
-}
 
 .newPage .banner{
   position: relative;
@@ -80,7 +8,7 @@ a{
   bottom: 0;
   left:0;
   right:0;
-  background: rgba(43,51,84,0.6);
+  background: rgba(12,21,47,0.5);
   padding: 2% 18.75%;
   display: flex;
   justify-content: center;
@@ -139,7 +67,8 @@ a{
 .newPage .list .item .body span{
   word-break: break-all;
   font-size: 1.4em;
-  line-height: 1.6em
+  line-height: 1.6em;
+  color:#5C5C5C
 }
 .newPage .list .item .right{
   display: flex;
@@ -192,63 +121,4 @@ a{
 }
 .newPage .list .item:hover .right img{
   transform: translate(70px, 0);
-}
-
-/* 联系我们 */
-.contact{
-  position: relative;
-}
-.contact a ,.contact p, .contact li{
-  color:#D4D4D4
-}
-.contact .wrap{
-  position: absolute;
-  top:14%;
-  left: 0;
-  display: block;
-  width: 100%;
-}
-.contact .wrap .content{
-  margin: 0 18.75%;
-  display: flex;
-  justify-content: flex-start;
-  padding-bottom: 3%;
-  border-bottom: 1px solid #2D2D40
-}
-.contact .wrap .content .left{
-  width: 36%;
-  border-right: 1px solid #2D2D40;
-}
-.contact .wrap .content .left p{
-  font-size: 1.8em;
-  margin-bottom: 4%
-}
-.contact .wrap .content .left li{
-  font-size: 1.2em;
-  margin-bottom: 4%;
-}
-.contact .wrap .content .right{
-  width: 64%;
-  display: flex;
-  justify-content: center;
-  padding-left:8%;
-}
-.contact .wrap .content .right .item{
-  flex: 1;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-}
-.contact .wrap .content .right .item p{
-  font-size: 1.8em;
-  padding-bottom: 12%;
-}
-
-.contact .wrap .content .right .item li{
-  margin-top: 6%;
-  font-size: 1.4em;
-}
-.footer{
-  text-align: center;
-  padding:2% 0;
-  color:#ADADAD
 }
